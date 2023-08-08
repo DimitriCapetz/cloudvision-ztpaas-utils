@@ -14,7 +14,7 @@ import json
 # By default, windows uses (CR LF), you need to convert the newline char to linux (LF).
 
 # address for CVaaS, usually just "www.arista.io"
-cvAddr = "cv-prod-us-central1-c.arista.io"
+cvAddr = "www.arista.io"
 
 # enrollment token to be copied from CVaaS Device Registration page
 enrollmentToken = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhc2V0SUQiOjcyMzEyODYwODY2NTAwNDkzMDIsImV4cCI6MTY5NDEyMjk1OSwia2lkIjoiOGJhYzZjYTRhZDk1Y2U0NiIsIm5iZiI6MTY5MTUzMDk1OSwicmVlbnJvbGxEZXZpY2VzIjpbIioiXX0.ke9PSAWdiU9lCbSVXU_oBJW_gBdiExLtOVVx6RkvyGbkpqK-YZdmrkTdCWDM9PzzfcGYOVV_keICS3ZaXZGzq0ZaYkmCJyTgVPRZcdh7Gb9_P9aixVuhP_hJVPYpBkzEbpzUPfeDa0sJsyJxWfqN5TXyFRA_sX4yUrPcNoJpVUaqWmwWPKO55JEs7KpNmmnJFy0Nv1YXLDUMd057STuisiZMDtZNZS01-Xq86Dlm_VEJYlKqgEbaWQrBHQ_C_Vm_Unwt3ZFMBRyM9-HVhNsmFJdnX-nNTbAol0MJW7CyrndyQAxxXw8lEEZIybhieoTNz38pWnmGNmFWlygsJ_nh0V-Oj2JO5SzGKQq124odOy9gQc7rydqWw_ZIMhHWgaUsrBxkF4OaJC16CMgcMeP6BpdplVX22Yvmpsj9Y6hAUxBRgRyaNgrumWvepCR6RSYBsC5rXH01cqh4xtsciRWNoA2_piHzzew00NBZGi_aaZALRYxRXnF96qKIVqKrxhBYe29fB6qSCq9P_cCygfL4K8sjDHAz0ZxH8tSrdllV0SiX-rEkxrIT1SAt9uoCJev55EqQHs4qbHYzrxRxVc8VuPtc_YBErcp3oRr-eHdoQp4GaO_itq4rE0VdH9OCjCPv2deipbT5QXAHRhQawiGBsI5gKNAnYPslQ2Y2RVj6UbE"
@@ -31,7 +31,7 @@ eosUrl = ""
 # the URL supplied in this variable to be used as the NTP server.
 # For example:
 # ntpServer = "ntp1.aristanetworks.com"
-ntpServer = ""
+ntpServer = "0.pool.ntp.org"
 
 
 ##############  CONSTANTS  ##############
