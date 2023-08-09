@@ -1,0 +1,4 @@
+bootstrapUrl: 'https://www.arista.io/ztp/bootstrap'
+serverCaCertificate: ../../../etc/pki/tls/certs/ca-bundle.crt
+enrollmentToken: token.tok
+version: '1.0'
